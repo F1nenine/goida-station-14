@@ -1,7 +1,8 @@
-rcd-ammo-component-on-examine = Оно содержит { $charges } зарядов.
-rcd-ammo-component-after-interact-full = РЦД полностью заряжен!
-rcd-ammo-component-after-interact-refilled = Вы перезаряжаете РЦД.
-rcd-ammo-component-on-examine-text = Содержит { $ammo } зарядов.
-rcd-ammo-component-after-interact-full-text = РЦД полностью заряжен!
-rcd-ammo-component-after-interact-refilled-text = Вы перезаряжаете РЦД.
-rcd-ammo-component-after-interact-not-enough = Недостаточно материала для заряда.
+rcd-ammo-component-on-examine =
+    Содержит { $charges } { $charges ->
+        [one] заряд
+        [few] заряда
+       *[other] зарядов
+    }.
+rcd-ammo-component-after-interact-full = РСУ заполнено!
+rcd-ammo-component-after-interact-refilled = Вы пополняете РСУ.

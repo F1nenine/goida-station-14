@@ -1,4 +1,5 @@
-ent-lantern = светильник
+ent-Lantern = светильник
     .desc = Благословенный свет указывает путь.
-ent-lanternextrabright = сверхъяркий светильник
-    .desc = Ослепительно.
+ent-LanternFlash = { ent-Lantern }
+    .suffix = Вспышка
+    .desc = { ent-Lantern.desc }

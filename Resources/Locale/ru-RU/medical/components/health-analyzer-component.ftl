@@ -1,41 +1,19 @@
-health-analyzer-window-no-patient-data-text = Пациент отсутствует
-health-analyzer-window-entity-unknown-text = неизвестный
-health-analyzer-window-entity-health-text = Состояние {$entityName}:
-health-analyzer-window-entity-temperature-text = Температура: {$temperature}
-health-analyzer-window-entity-blood-level-text = Уровень крови: {$bloodLevel}
-health-analyzer-window-entity-bleeding-text = Пациент истекает кровью!
-health-analyzer-window-entity-damage-total-text = Общие повреждения
-health-analyzer-window-damage-group-text = {$damageGroup}: {$amount}
-health-analyzer-window-damage-type-text = {$damageType}: {$amount}
-health-analyzer-window-damage-type-duplicate-text = {$damageType}: {$amount} (дубликат)
-
+health-analyzer-window-no-patient-data-text = Нет данных о пациенте.
+health-analyzer-window-entity-unknown-text = неизвестно
+health-analyzer-window-entity-unknown-species-text = Негуманоид
+health-analyzer-window-entity-unknown-value-text = Н/Д
+health-analyzer-window-entity-alive-text = Жив
+health-analyzer-window-entity-dead-text = Мёртв
+health-analyzer-window-entity-critical-text = Критическое состояние
+health-analyzer-window-entity-temperature-text = Температура:
+health-analyzer-window-entity-status-text = Статус:
+health-analyzer-window-entity-blood-level-text = Уровень крови:
+health-analyzer-window-entity-damage-total-text = Общие повреждения:
+health-analyzer-window-damage-group-text = { $damageGroup }: { $amount }
+health-analyzer-window-damage-type-text = { $damageType }: { $amount }
+health-analyzer-window-entity-unrevivable-text = [color=yellow]Обнаружено уникальное строение тела! Пациент не может быть реанимирован стандартными средствами![/color]
+health-analyzer-window-entity-bleeding-text = [color=red]У пациента открытые раны![/color]
 health-analyzer-window-scan-mode-text = Режим сканирования:
-health-analyzer-window-scan-mode-active = ВКЛЮЧЕН
-health-analyzer-window-scan-mode-inactive = ВЫКЛЮЧЕН
-
-damage-group-brute = Механические
-damage-type-blunt = Удары
-damage-type-slash = Разрезы
-damage-type-piercing = Уколы
-
-damage-group-burn = Ожоги
-damage-type-heat = Термические
-damage-type-laser = Лазерный
-damage-type-shock = Электрические
-damage-type-cold = Обморожение
-damage-type-caustic = Кислотные
-
-damage-group-airloss = Нехватка воздуха
-damage-type-asphyxiation = Удушение
-damage-type-bloodloss = Кровопотеря
-
-damage-group-toxin = Токсины
-damage-type-poison = Яды
-damage-type-radiation = Радиация
-
-damage-group-genetic = Генетические
-damage-type-cellular = Клеточные
-
-damage-type-structural = Структурные
-
-health-analyzer-window-malnutrition = Тяжёлое недоедание
+health-analyzer-window-scan-mode-active = АКТИВЕН
+health-analyzer-window-scan-mode-inactive = НЕАКТИВЕН
+health-analyzer-popup-scan-target = { CAPITALIZE($user) } пытается просканировать вас!

@@ -1,9 +1,0 @@
-ent-BriefcaseIAAFilled = { ent-BriefcaseBrown }
-    .suffix = Заполненный
-    .desc = { ent-BriefcaseBrown.desc }
-ent-BriefcaseThiefBribingBundleFilled = { ent-BriefcaseBrown }
-    .desc = { ent-BriefcaseBrown.desc }
-ent-BriefcaseSyndieLobbyingBundleFilled = { ent-BriefcaseBrown }
-    .desc = { ent-BriefcaseBrown.desc }
-ent-BriefcaseSyndieSniperBundleFilled = { ent-BriefcaseBrown }
-    .desc = { ent-BriefcaseBrown.desc }

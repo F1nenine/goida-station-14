@@ -1,10 +1,5 @@
-﻿jukebox-menu-title = Jukebox
+jukebox-menu-title = Музыкальный автомат
 jukebox-menu-selectedsong = Выбранная песня:
-jukebox-menu-selectedsong-none = Песня не выбрана
 jukebox-menu-buttonplay = Играть
 jukebox-menu-buttonpause = Пауза
 jukebox-menu-buttonstop = Стоп
-jukebox-menu-buttonqueue = Очередь
-jukebox-menu-buttonremove = Убрать
-jukebox-menu-songs = Песни:
-jukebox-menu-queue = Очередь:

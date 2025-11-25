@@ -24,8 +24,8 @@ admin-notes-delete-confirm = Вы уверены?
 admin-notes-edited = Последнее изменение от { $author } в { $date }
 admin-notes-unbanned = Разбанил { $admin } в { $date }
 admin-notes-message-desc = [color=white]Вы получили { $count ->
-[1] новое сообщение от администрации
-*[other] новых сообщений от администрации
+        [1] новое сообщение от администрации
+       *[other] новых сообщений от администрации
     } с момента последней игры на сервере.[/color]
 admin-notes-message-admin = От [bold]{ $admin }[/bold], датировано { TOSTRING($date, "f") }:
 admin-notes-message-wait = Кнопки будут доступны через { $time } секунд.
@@ -63,6 +63,14 @@ admin-note-editor-expiry-label-params = Истекает: { $date } (через 
 admin-note-editor-expiry-label-expired = Истёк
 admin-note-editor-expiry-placeholder = Укажите срок действия (yyyy-MM-dd HH:mm:ss)
 admin-note-editor-submit = Подтвердить
+# Time
+admin-note-button-minutes = Минут
+admin-note-button-hours = Часов
+admin-note-button-days = Дней
+admin-note-button-weeks = Недель
+admin-note-button-months = Месяцев
+admin-note-button-years = Лет
+admin-note-button-centuries = Веков
 admin-note-editor-submit-confirm = Вы уверены?
 # Watchlist and message login
 admin-notes-watchlist = Наблюдение над { $player }: { $message }

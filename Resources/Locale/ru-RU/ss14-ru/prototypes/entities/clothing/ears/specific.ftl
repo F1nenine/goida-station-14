@@ -1,3 +1,3 @@
-ent-ClothingHeadsetChameleon = гарнитура ассистента
-    .desc = Модифицированный модульный интерком, надеваемый на голову. Принимает ключи шифрования.
+ent-ClothingHeadsetChameleon = гарнитура пассажира
+    .desc = { ent-ClothingHeadset.desc }
     .suffix = Хамелеон

@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackMilitary
+  name: Военный рюкзак
+  description: Много вещи ности каждый день
+  components:
+    - type: Sprite
+      sprite: _Honk/Clothing/Back/Backpacks/military.rsi

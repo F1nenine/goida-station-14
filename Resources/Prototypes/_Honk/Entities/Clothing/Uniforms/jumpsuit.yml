@@ -8,3 +8,15 @@
     sprite: _Honk/Clothing/Uniforms/Jumpsuit/military.rsi
   - type: Clothing
     sprite: _Honk/Clothing/Uniforms/Jumpsuit/military.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitArab
+  name: одежда местных
+  description: Обычная одежда
+  components:
+  - type: Sprite
+    sprite: _Honk/Clothing/Uniforms/Jumpsuit/arab.rsi
+  - type: Clothing
+    sprite: _Honk/Clothing/Uniforms/Jumpsuit/arab.rsi

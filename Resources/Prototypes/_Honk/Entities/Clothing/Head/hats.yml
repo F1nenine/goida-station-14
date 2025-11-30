@@ -1,0 +1,10 @@
+﻿- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTurban
+  name: тюрбан
+  description: Тюрбан
+  components:
+  - type: Sprite
+    sprite: _Honk/Clothing/Head/Hats/turban.rsi
+  - type: Clothing
+    sprite: _Honk/Clothing/Head/Hats/turban.rsi

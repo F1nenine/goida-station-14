@@ -23,6 +23,23 @@
     zeroVisible: true
 
 - type: entity
+  name: АК-47
+  suffix: потрёпаный
+  parent: WeaponRifleAk47
+  id: WeaponRifleAk47Bad
+  components:
+  - type: Sprite
+    sprite: _Honk/Objects/Weapons/Guns/Rifles/ak47Bad.rsi
+  - type: Clothing
+    sprite: _Honk/Objects/Weapons/Guns/Rifles/ak47Bad.rsi
+  - type: GunWieldBonus
+    minAngle: -12
+    maxAngle: -27
+  - type: Gun
+    minAngle: 25
+    maxAngle: 35
+
+- type: entity
   name: АК-47у
   parent: WeaponRifleAk
   id: WeaponRifleAk47y
@@ -55,3 +72,20 @@
   - type: Gun
     minAngle: 25
     maxAngle: 42
+
+- type: entity
+  name: АК-47у
+  suffix: потрёпаный
+  parent: WeaponRifleAk47y
+  id: WeaponRifleAk47yBad
+  components:
+  - type: Sprite
+    sprite: _Honk/Objects/Weapons/Guns/Rifles/ak47yBad.rsi
+  - type: Clothing
+    sprite: _Honk/Objects/Weapons/Guns/Rifles/ak47yBad.rsi
+  - type: GunWieldBonus
+    minAngle: -14
+    maxAngle: -28
+  - type: Gun
+    minAngle: 35
+    maxAngle: 50

@@ -1,0 +1,44 @@
+﻿- type: entity
+  parent: BaseStructure
+  id: BaseCover
+  abstract: true
+  name: мешки с песком
+  description: база
+  components:
+  - type: Cover
+    blockChance: 0.6
+  - type: Sprite
+    drawdepth: SmallObjects
+    sprite:  _Honk/Structures/Walls/sandbags.rsi
+  - type: Icon
+    sprite: _Honk/Structures/Walls/sandbags.rsi
+  - type: Physics
+    bodyType: Static
+  - type: InteractionOutline
+  - type: Repairable
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: FlimsyMetallic
+  - type: Climbable
+
+- type: entity
+  parent: BaseCover
+  id: Cover
+  components:
+  - type: Sprite
+    state: side
+  - type: Icon
+    state: side
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds:  "-0.5, -0.3, 0.5, 0.3"
+        density: 1000
+        mask:
+        - TableMask
+        - BulletImpassable
+        layer:
+        - TableLayer
+

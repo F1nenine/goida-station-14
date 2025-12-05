@@ -1,0 +1,38 @@
+﻿- type: entity
+  name: Ящик с боеприпасами
+  id: HonkBoxAmmo
+  parent: BaseStructure
+  description: НЕХВАТКА БОЕПРИПАСОВ
+  components:
+  - type: Sprite
+    sprite: _Honk/Structures/Crates/ammobox.rsi
+    state: ammobox
+    layers:
+    - state: ammobox
+  - type: InteractionOutline
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.29"
+        density: 1000
+        layer:
+        - TableLayer
+        mask:
+        - TableMask
+  - type: Appearance
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: MagazineBoxLightRifle
+          amount: 8
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,7,3

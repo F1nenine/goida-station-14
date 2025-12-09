@@ -1,0 +1,19 @@
+﻿- type: playTimeTracker
+  id: JobRebelHeavy
+
+- type: job
+  id: RebelHeavy
+  name: Пулемётчик
+  description: Meet to Heavy
+  playTimeTracker: JobRebelHeavy
+  startingGear: RebelHeavyGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+  access:
+  - Maintenance
+
+- type: startingGear
+  id: RebelHeavyGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey

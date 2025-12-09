@@ -1,0 +1,21 @@
+﻿- type: playTimeTracker
+  id: JobSoldier
+
+- type: job
+  id: Soldier
+  name: Рядовой
+  description: Рядовой Табуретка к службе готов!
+  playTimeTracker: JobSoldier
+  startingGear: SoldierGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+  access:
+  - Maintenance
+
+- type: startingGear
+  id: SoldierGear
+  equipment:
+    head: ClothingHeadHelmetМilitary
+    jumpsuit: ClothingUniformJumpsuitMilitary
+    outerClothing: ClothingOuterVestWebMilitary
+    shoes: ClothingShoesBootsCombat

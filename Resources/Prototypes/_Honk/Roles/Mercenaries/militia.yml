@@ -1,0 +1,19 @@
+﻿- type: playTimeTracker
+  id: JobMilitia
+
+- type: job
+  id: Militia
+  name: Новобранец
+  description: Новобранец Табуретка к службе готов!
+  playTimeTracker: JobMilitia
+  startingGear: MilitiaGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+  access:
+  - Maintenance
+
+- type: startingGear
+  id: MilitiaGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey

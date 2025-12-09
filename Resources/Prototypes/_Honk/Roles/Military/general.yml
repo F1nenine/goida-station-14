@@ -1,0 +1,19 @@
+﻿- type: playTimeTracker
+  id: JobGeneral
+
+- type: job
+  id: General
+  name: Генерал
+  description: У вас особые котлы!
+  playTimeTracker: JobGeneral
+  startingGear: GeneralGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+  access:
+  - Maintenance
+
+- type: startingGear
+  id: GeneralGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
